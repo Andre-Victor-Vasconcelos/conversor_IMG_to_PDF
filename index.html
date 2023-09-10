@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Conversor IMG para PDF</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </head>
 <body>
+    <h1>Instruções</h1>
+    <p>1 - Fazer upload da imagem</p>
+    <p>2 - Clique em "baixar pdf"</p>
     <div class="Content">
         <label class="picture" for="picture__input" tabIndex="0">
             <span class="picture__image"></span>
@@ -17,7 +20,7 @@
           <input type="file" name="picture__input" id="picture__input">
 
     </div>
-    <button onclick="downloadPDF()">baixar pdf</button>
+    <button style="margin-top: 0.5%;" onclick="downloadPDF()">baixar pdf</button>
     <script src="script.js"></script>
     <script src="script2.js"></script>
 
